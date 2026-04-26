@@ -73,9 +73,12 @@ src/config.h.in
 # Temporary files
 *.tmp
 .*.swp
+*.swp
+*.swo
 *.tmproj
 *.dirstamp
 tcpdump.debug
+*~
 
 # Misc files
 tcpreplay.spec
@@ -97,3 +100,9 @@ COPYING
 .idea/
 build*/
 .run/
+
+# Local replay experiment artifacts
+pcaps/
+results/
+*.pcap
+*.pcapng
